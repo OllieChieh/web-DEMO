@@ -1,0 +1,127 @@
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  padding: 50px 0;
+}
+section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+section h1:after {
+  content: "";
+  background: #819ca9;
+  display: block;
+  height: 5px;
+  width: 50px;
+  margin: 20px auto 5px;
+  margin-bottom: 20px;
+}
+
+/* slider */
+.banner,
+.carousel {
+  width: 100%;
+  height: 40vw;
+  background-color: cadetblue;
+  overflow: hidden;
+}
+.banner img {
+  height: auto;
+  width: 100%;
+}
+#slider {
+  margin: 0;
+  padding: 0;
+}
+
+/* about */
+.about-row div {
+  display: inline-block;
+}
+.about-img {
+  width: 50rem;
+}
+.about-img img {
+  width: 100%;
+}
+.about-p {
+  width: 50px;
+  word-wrap: break-word;
+}
+
+
+/* member */
+#member {
+  background: rgba(176, 208, 209, 0.445);
+}
+
+.member-img-container {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#member img {
+  height: 10rem;
+  z-index: 2;
+}
+.circle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 10px 5px 5px rgba(176, 208, 209, 0.445);
+}
+#member h3:after {
+  content: "";
+  background: #819ca9;
+  display: block;
+  height: 2px;
+  width: 80%;
+  margin: 10px 0px;
+}
+.border-left {
+  border-left: 0.5px solid rgba(176, 208, 209, 0.5);
+}
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+}
